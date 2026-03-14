@@ -11,7 +11,7 @@ print(CalculateAverage([1,9,3,4,5]))
 
 def CalculateMax(values):
     if not values:
-        return None
+        return 0
     return max(values)
 
 def CalculateMin(values):
