@@ -7,4 +7,4 @@ def dzielenie(a, b):
 def CalculateAverage(values):
     return sum(values) / len(values)
 
-print(CalculateAverage([1,9,3,4,5]))
+print(CalculateAverage([1,9,3,4,6,7,6,7]))
