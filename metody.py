@@ -13,4 +13,4 @@ def CalculateMax(values):
     return max(values)
 
 def CalculateMin(values):
-    pass
+    return min(values)
