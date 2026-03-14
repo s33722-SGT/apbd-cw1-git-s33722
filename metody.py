@@ -5,9 +5,6 @@ def dzielenie(a, b):
     return a/b;
 
 def CalculateAverage(values):
-    srednia = 0
-    dlugosc = 0
-    for v in values:
-        srednia += v
-        dlugosc += 1
-    return srednia/dlugosc
+    return sum(values) / len(values)
+
+print(CalculateAverage([1,9,3,4,5]))
