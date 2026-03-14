@@ -8,3 +8,6 @@ def CalculateAverage(values):
     return sum(values) / len(values)
 
 print(CalculateAverage([1,9,3,4,5]))
+
+def CalculateMax(values):
+    return max(values)
