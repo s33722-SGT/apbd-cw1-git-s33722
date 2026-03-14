@@ -13,4 +13,6 @@ def CalculateMax(values):
     return max(values)
 
 def CalculateMin(values):
+    if not values:
+        return 0
     return min(values)
