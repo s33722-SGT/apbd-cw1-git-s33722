@@ -10,6 +10,8 @@ def CalculateAverage(values):
 print(CalculateAverage([1,9,3,4,5]))
 
 def CalculateMax(values):
+    if not values:
+        return None
     return max(values)
 
 def CalculateMin(values):
