@@ -1,5 +1,7 @@
 #Zadania GIT
 
+zad5:
+nie byl fast-forward bo zmiany pojawily sie na galezi i na main
 
 **1. Kiedy Git wykona fast-forward, a kiedy powstaje merge commit?**
 fast - gdy na main nie ma zadnych zmian 
